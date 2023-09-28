@@ -1,7 +1,4 @@
-import java.util.HashMap;
-import java.util.Map;
-
-class Solution {
+class MergedArr {
     public static void merge(int[] nums1, int m, int[] nums2, int n) {
         int merged_len = m+n;
         int temp_arr[] = new int[merged_len];
@@ -64,7 +61,7 @@ class Solution {
         int m = 3;
         int n = 3;
 
-        Solution.merge(arr1, m, arr2, n);
+        MergedArr.merge(arr1, m, arr2, n);
 
         for(int x : arr1){
             System.out.print(x);
